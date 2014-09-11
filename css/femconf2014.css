@@ -1,6 +1,30 @@
 h1 {
-  		margin: .67em 0;
   		font-size: 4em;
-        /*font-size: 80px;*/
         font-family: "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+}
+
+@media (min-width: 768)
+    {
+       h1
+       {
+           font-size:2em;
+		   
+       }
+    }
+
+h2 {
+  		font-size: 3em;
+ 		font-family: "Gill Sans", Arial, Helvetica, Calibri, sans-serif;
+ 
+}
+
+
+a {
+  color: #CC0000 ;
+}
+
+a:hover,
+a:focus {
+  color: #CC0000;
+  text-decoration: underline;
 }
