@@ -3,20 +3,28 @@ h1 {
         font-family: "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
 }
 
-@media (min-width: 768)
+h2 {
+  		font-size: 3em;
+ 		font-family: "Gill Sans", Arial, Helvetica, Calibri, sans-serif;
+}
+
+/* change h1 size on small screens */
+@media (max-width: 992px)
+    {
+       h1
+       {
+           font-size:3em;
+       }
+    }
+
+
+@media (max-width: 768px)
     {
        h1
        {
            font-size:2em;
-		   
        }
     }
-
-h2 {
-  		font-size: 3em;
- 		font-family: "Gill Sans", Arial, Helvetica, Calibri, sans-serif;
- 
-}
 
 
 a {
