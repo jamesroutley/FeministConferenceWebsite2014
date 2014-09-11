@@ -11,8 +11,7 @@ h2 {
 /* change h1 size on small screens */
 @media (max-width: 992px)
     {
-       h1
-       {
+       h1 {
            font-size:3em;
        }
     }
@@ -20,10 +19,32 @@ h2 {
 
 @media (max-width: 768px)
     {
-       h1
-       {
+       h1 {
            font-size:2em;
        }
+	  
+	   .intro-section {
+    	padding-top: 75px;
+	   }
+	  
+	  .about-section {
+    	padding-top: 75px;
+	   }
+	  
+	  .speakers-section {
+    	padding-top: 75px;
+	   }
+	  
+	  .timetable-section {
+    	padding-top: 75px;
+	   }
+	  
+	  .tickets-section {
+    	padding-top: 75px;
+	   }
+	  .contact-section {
+    	padding-top: 75px;
+	   }
     }
 
 
