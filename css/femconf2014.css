@@ -8,6 +8,16 @@ h2 {
  		font-family: "Gill Sans", Arial, Helvetica, Calibri, sans-serif;
 }
 
+/*
+.contact-section {
+    background: #333;
+}
+
+#contact h1 {
+	color: #eee;
+}
+*/
+
 /* change h1 size on small screens */
 @media (max-width: 992px)
     {
