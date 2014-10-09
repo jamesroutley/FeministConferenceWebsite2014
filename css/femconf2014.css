@@ -8,6 +8,21 @@ h2 {
  		font-family: "Gill Sans", Arial, Helvetica, Calibri, sans-serif;
 }
 
+img {
+		padding-bottom: 40px
+}
+
+/*.contact-h2 {
+	color: #E7E7E7 ;
+}
+*/
+
+.james-routley {
+	text-align: center ;
+	/* position: absolute; */	
+	padding-top: 100px ;
+}
+
 /*
 .contact-section {
     background: #333;
