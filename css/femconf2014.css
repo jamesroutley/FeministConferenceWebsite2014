@@ -84,10 +84,28 @@ img {
     }
 
 @media (max-width: 768px){
-	.speakers-section {
-		height: 600%;
+		  
+	  .intro-section {
+    	padding-top: 75px;
+		height: 120%;
 	   }
 	  
+	  .about-section {
+    	padding-top: 75px;
+		height: 150%;
+	   }
+	.tickets-section {
+    	padding-top: 75px;
+		height: 150%;
+	   }
+	.speakers-section {
+		padding-top: 75px;
+		height: 600%;
+	}
+	.contact-section {
+    	padding-top: 75px;
+	}
+
 }
 
 /*link red: CC0000*/
