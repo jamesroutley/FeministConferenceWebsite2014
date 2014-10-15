@@ -33,20 +33,27 @@ img {
 }
 */
 
-/* change h1 size on small screens */
+
+
+@media (max-width: 1200px)
+	{
+	.speakers-section {
+	 height: 290% ;
+    	
+	}
+	}
+
 @media (max-width: 992px)
     {
-       h1 {
-           font-size:3em;
-       }
+		
+	   .speakers-section {
+		height: 250% ;   
+	   }
     }
 
 
 @media (max-width: 768px)
     {
-       h1 {
-           font-size:2em;
-       }
 	  
 	   .intro-section {
     	padding-top: 75px;
@@ -60,7 +67,7 @@ img {
 	  
 	  .speakers-section {
     	padding-top: 75px;
-		height: 120%;
+		height: 300%;
 	   }
 	  
 	  .timetable-section {
