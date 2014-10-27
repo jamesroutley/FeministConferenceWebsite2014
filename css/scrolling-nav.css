@@ -69,8 +69,8 @@ of those sections to manage the look and feel of the site. */
     text-align: justify;
     background: #fff;
 }
-.contact-section {
-    height: 80%;
+.info-section {
+    height: 200%;
     padding-top: 150px;
     text-align: justify;
     background: #eee;
